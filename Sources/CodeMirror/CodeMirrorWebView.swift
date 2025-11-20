@@ -104,7 +104,7 @@ public final class CodeMirrorWebView: NativeView {
 
     // MARK: Variables
 
-    weak var delegate: CodeMirrorWebViewDelegate?
+    public weak var delegate: CodeMirrorWebViewDelegate?
     var onLoaded: (() -> Void)?
     var onProcessing: ((Bool) -> Void)?
 
